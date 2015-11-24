@@ -1,0 +1,167 @@
+/*-------------------------------------------------
+GLOBALS CLASSES
+-------------------------------------------------*/
+*{ margin:0; padding:0; font-family: 'Pontano Sans', sans-serif;}
+body { background:#f1f1f1;}
+
+p {font-family: 'Pontano Sans', sans-serif; color:#939191; font-size:14px;}
+a { text-decoration:none; color:#00c0ff;}
+a:hover { text-decoration:none; color:#dd31ae;}
+ul li { list-style:none; outline:none;}
+img { border:none; }
+img { border:none;}
+h1 { font-family: 'Oswald', sans-serif; color:#45303f; font-size:22px; font-weight:normal;text-transform:uppercase;}
+
+/*-------------------------------------------------
+CSS TWEAKS
+-------------------------------------------------*/
+.clearing { clear:both;}
+.fltLeft { float:left;}
+.flrRight { float:right;}
+.marLeft30 { margin-left:30px;}
+.marRight30 { margin-right:30px;}
+.marginTop { margin-top:30px;}
+.marginBottom { margin-bottom:60px;}
+.padTop { padding-top:20px;}
+.padBottom { padding-bottom:20px;}
+.wid960{ width:960px !important; }
+
+/*-------------------------------------------------
+GENERAL CLASSES
+-------------------------------------------------*/
+
+.panel { background:#ffffff; border:1px solid #ebebeb; overflow:hidden;}
+.title {}
+.content { overflow:hidden; font-size:14px;}
+.button-link{ }
+.button-link a{ font-family: 'Oswald', sans-serif; text-transform:uppercase;}
+
+/*-------------------------------------------------
+HEADER CLASSES
+-------------------------------------------------*/
+
+.header-wrap { width:100%; overflow:hidden; background:#00c0ff;}
+.header { width:960px; overflow:hidden; margin:0 auto;}
+
+.menu { float:left; width:505px;}
+.menu ul li { float:left; width:100px; margin-right:1px;}
+.menu ul li a { display:block; width:100px; height:80px; line-height:80px; text-align:center; color:#ffffff; background:#1ac6ff;}
+.menu ul li a:hover { background:#33cdff;} 
+.menu ul li a.active { background:#33cdff;} 
+
+.social-media { float:right; height:80px;}
+.social-media ul li { float:left; margin-right:10px; padding-top:25px;}
+
+.logo-sarch-wrap { width:100%; overflow:hidden; background:#dd31ae;}
+.logo-search-container { width:960px; margin:0 auto; height:140px;}
+.logo { float:left; width:500px; height:140px; line-height:140px;}
+.logo h1 { color:#ffffff; font-size:36px; text-transform:uppercase; font-weight:normal;}
+
+.search { float:right; width:280px; margin-top:50px;}
+.search-input { float:left; width:220px;}
+.search-button { float:left;}
+.search-text-field { width:220px; border:0px solid ; background:#d02aa3; color:#ffffff; height:40px; line-height:40px; padding-left:10px;}
+
+/*-------------------------------------------------
+BANNER CLASSES
+-------------------------------------------------*/
+
+.banner-wrap { width:1000px; margin:0 auto; overflow:hidden; height:auto; margin-top:30px;}
+.banner-left { float:left; width:20px;}
+.bannre-right { float:left; width:20px;}
+.banner { float:left; width:920px; padding:20px; overflow:hidden; background:#ffffff;}
+.banner-image { margin:0 auto; background:url(../images/banner-bg.gif) no-repeat; height:381px; text-align:right;}
+.banner-data { margin-top:100px; float:right; position:relative; width:500px;}
+.caption1  h1 { padding:10px; background:#00c0ff; font-size:22px; font-weight:normal; color:#ffffff;text-transform:uppercase; display:inline-block;}
+.caption2  h2 { padding:10px; background:#dd31ae; font-size:18px; font-weight:normal; color:#ffffff;  text-transform:uppercase;display:inline-block;  font-family: 'Oswald', sans-serif; }
+.caption3 { padding:10px; background:#45303f; font-size:16px; font-weight:normal; color:#ffffff; display:inline-block;}
+
+/*-------------------------------------------------
+4 PANELS CLASSS
+-------------------------------------------------*/
+
+.panel-wrapper { width:960px; margin:0 auto; overflow:hidden; margin-top:30px;}
+.panel-wrapper .panel { float:left; width:403px; padding:30px; margin-bottom:30px;}
+.panel-wrapper .title { padding-bottom:20px;}
+.panel-wrapper .title img { float:left; margin-right:20px;}
+.panel-wrapper .content p { padding-left:60px;}
+.panel-wrapper .content a { background:#dd31ae; color:#ffffff; }
+.panel-wrapper .content a:hover { background:#00c0ff; color:#ffffff;}
+.panel-wrapper .button-link{padding-left:60px; padding-top:20px;}
+
+/*-------------------------------------------------
+LAYOUT CLASSS
+-------------------------------------------------*/
+.page-wrapper { width:960px; margin:0 auto; overflow:hidden;}
+.primary-content { float:left; width:628px; overflow:hidden;}
+.sidebar { float:left; width:298px; overflow:hidden;}
+
+/*-------------------------------------------------
+PRIMARY CONTENT CLASSS
+-------------------------------------------------*/
+
+.primary-content .panel {  padding:30px;}
+.primary-content .title { width:100%;}
+.primary-content .title h1 { padding-bottom:10px;}
+.primary-content .title h2{ background:#dd31ae; height:40px; line-height:40px; color:#ffffff; font-weight:normal; font-size:20px; padding-left:10px;  margin-bottom:20px;}
+.primary-content .content img{ float:left; margin-right:30px; }
+.primary-content .content p{ padding-bottom:20px;}
+.primary-content .content h3 { font-size:16px; color:#dd31ae; padding-bottom:10px;}
+.primary-content .button-link{padding-top:20px;}
+
+.generic-content { overflow:hidden; width:900px; padding:30px; background:#ffffff; margin-top:30px;}
+.generic-content { overflow:hidden; width:900px; padding:30px; background:#ffffff; margin-top:30px;}
+.generic-content .title h2{ font-size:16px; font-weight:normal; color:#b6b6b6; padding-bottom:20px; border-bottom:1px solid #ebebeb; margin-bottom:30px; padding-top:10px;}
+
+.portfolio { overflow:hidden; width:900px; padding:30px; background:#ffffff; margin-top:30px;}
+.portfolio .title h2{ font-size:16px; font-weight:normal; color:#b6b6b6; padding-bottom:20px; border-bottom:1px solid #ebebeb; margin-bottom:30px; padding-top:10px;}
+.portfolio .panel { width:280px; border:none;  background:#f5f5f5; float:left; margin-bottom:30px;}
+.portfolio .panel .content { padding:10px; padding-bottom:20px;}
+.portfolio .panel .content p{ padding-bottom:10px;}
+.portfolio .panel .content p span{ padding-bottom:10px; border-bottom: 1px solid #dddddd;  color:#dd31ae; display:block;}
+.portfolio .panel .content a { color:#ffffff; background:#00c0ff; padding: 0px 6px 0px 6px;  text-transform:uppercase; font-family:'Oswald', sans-serif; font-size:12px;}
+.portfolio .panel .content a:hover { background:#dd31ae;}
+.portfolio .panel .content img{ padding-bottom:10px;}
+
+/*-------------------------------------------------
+SIDEBAR CLASSS
+-------------------------------------------------*/
+
+.sidebar .panel { width:298px; padding-bottom:30px;}
+.sidebar .title h1 { padding:30px; border-bottom:1px solid #ececec; }
+.sidebar .content ul li { display:block; border-bottom:1px solid #ececec; height:40px; line-height:40px; background:url(../images/round-arrow.gif) no-repeat 260px 10px;}
+.sidebar .content ul li a { padding-left:30px; color:#939191; font-size:14px;}
+.sidebar .content ul li a:hover {color:#dd31ae;}
+.sidebar .content ul li a.active {color:#dd31ae;}
+.sidebar .content ul li.borderNone { border-bottom:none;}
+
+.subscribe {}
+.subscribe .button-link a { display:block; width:90px; height:36px; line-height:36px; text-align:center; background:#00c0ff; color:#ffffff; font-size:12px; margin-left:30px; margin-top:20px;}
+.subscribe .button-link a:hover { background:#dd31ae;} 
+.sidebar-text-field { width:230px; height:40px; line-height:40px; border:0px solid; background:#e6e6e6; padding-left:10px; color:#9b9b9b; margin-left:30px; margin-top:30px;}
+
+.sidebar .call { background:#dd31ae; padding:30px;}
+.sidebar .call h1 { color:#ffffff; text-transform:uppercase; font-size:22px; font-weight:normal;}
+.sidebar .call h1 span { font-size:18px; padding-left:15px;}
+
+.footer-wrapper { width:100%; background:#00c0ff; overflow:hidden;}
+.footer { width:960px; height:100px; line-height:100px; text-align:center; margin:0 auto; color:#ffffff; font-size:14px;}
+.footer a { color:#45303f;}
+.footer a:hover { color:#ffffff;}
+
+/*-------------------------------------------------
+CONTACT FORM CLASSS
+-------------------------------------------------*/
+
+.contact-form { background:#f1f1f1; padding:30px; width:440px; float:left;}
+.contact-form label {display: block; padding:10px 0 10px 0;}
+.contact-form label span {display: block; color:#939191;font-size:14px; float:left; width:80px; text-align:left; padding:5px 20px 0 0;}
+.contact-form .input_text {padding:10px 10px;width:320px;background:#ffffff;border:0px solid; color:#939191;}
+.contact-form .message{padding:10px 10px;width:320px; background:#ffffff; border:0px solid;overflow:hidden;height:150px; color:#939191; font-size:14px;}
+.contact-form .button{padding:4px 7px;background:#00c0ff; color:#ffffff; text-transform:uppercase; font-family:'Oswald', sans-serif;border:0px solid;margin-left:100px;margin-top:20px;}
+
+.address { float:left; width:370px; margin-left:30px;}
+.address .panel { border:none; color:#dd31ae}
+.address .panel .title h1 {  color:#dd31ae; padding-bottom:10px;}
+.address .panel .content p span { color:#dd31ae;}
+
