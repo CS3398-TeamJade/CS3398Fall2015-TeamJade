@@ -1,0 +1,13 @@
+body {
+  min-height: 1000px;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+  background-color: #0E3D14;
+  border-color: #1a5F23;
+}
+
+.navbar-toggle:hover{
+	background-color: #1a5F23;
+}
