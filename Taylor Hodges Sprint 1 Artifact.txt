@@ -1,0 +1,24 @@
+Here is a list of all of the videos I watched about GitHub for Sprint 1.
+
+https://www.youtube.com/watch?v=U8GBXvdmHT4 Webcast- The Basics of Git and GitHub - July 2013 51 minutes
+https://www.youtube.com/watch?v=0fKg7e37bQE Github Tutorial For Beginners - Github Basics for Mac or Windows & Source Control Basics 19 minutes
+https://www.youtube.com/watch?v=oFYyTZwMyAg GITHUB PULL REQUEST, Branching, Merging & Team Workflow 11 minutes
+https://www.youtube.com/watch?v=E8TXME3bzNs How to use GitHub for Beginners 33 minutes
+https://www.youtube.com/watch?v=9SZ7kSQ2424 Git Branching for Agile Teams (webinar) 56minutes
+https://www.youtube.com/watch?v=GYnOwPl8yCE Power Your Workflow With Git 1 hr 10 minutes
+https://www.youtube.com/watch?v=b8OrbpZqX4o&index=2&list=PLg7s6cbtAD15Das5LK9mXt_g59DLWxKUe Webcast • History and Collaboration with Git and GitHub 33 minutes
+https://www.youtube.com/watch?v=LXoWxrTdXkM  GitHub for Beginners 23 minutes
+https://www.youtube.com/watch?v=-kVzV6m5_Qg Becoming a Git Master 51 minutes
+
+A majority of these are "beginner" videos that show how the command line works. Those were alright, just to solidify what we learned in class. 
+The two most helpful ones are listed below:
+https://www.youtube.com/watch?v=0fKg7e37bQE Github Tutorial For Beginners - Github Basics for Mac or Windows & Source Control Basics 19 minutes
+https://www.youtube.com/watch?v=oFYyTZwMyAg GITHUB PULL REQUEST, Branching, Merging & Team Workflow 11 minutes
+
+A couple of them were just interesting. One had specific tips for agile teams and the other had tips on how to be more productive with git.
+Those two are listed below:
+https://www.youtube.com/watch?v=9SZ7kSQ2424 Git Branching for Agile Teams (webinar) 56minutes
+https://www.youtube.com/watch?v=GYnOwPl8yCE Power Your Workflow With Git 1 hr 10 minutes
+
+Overall, I feel I became more familiar with GitHub, a little bit more about source control, and some interesting information on how GitHub works in the background
+(ie, the data structures GitHub uses to store and check this information). 
