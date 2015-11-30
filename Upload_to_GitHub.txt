@@ -1,0 +1,42 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Windows\System32>cd ..
+
+C:\Windows>cd ..
+
+C:\>cd Users\BCE\CS3398Fall2015-TeamJade
+
+C:\Users\BCE\CS3398Fall2015-TeamJade>git pull
+remote: Counting objects: 13, done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 13 (delta 4), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (13/13), done.
+From https://github.com/CS3398-TeamJade/CS3398Fall2015-TeamJade
+   f7abd70..9300385  master     -> origin/master
+Updating f7abd70..9300385
+Fast-forward
+ Taylor Hodges Sprint 1 Artifact.txt | 24 ++++++++++++++++++++++++
+ Taylor Hodges Sprint 2 Artifact.txt | 20 ++++++++++++++++++++
+ taylor_hodges.txt                   |  2 ++
+ 3 files changed, 46 insertions(+)
+ create mode 100644 Taylor Hodges Sprint 1 Artifact.txt
+ create mode 100644 Taylor Hodges Sprint 2 Artifact.txt
+
+
+
+
+
+
+
+C:\Users\BCE\CS3398Fall2015-TeamJade>git push
+Username for 'https://github.com': brett.estep@txstate.edu
+Password for 'https://brett.estep@txstate.edu@github.com':
+Everything up-to-date
+
+C:\Users\BCE\CS3398Fall2015-TeamJade>git push
+Username for 'https://github.com': brett.estep@txstate.edu
+Password for 'https://brett.estep@txstate.edu@github.com':
+Everything up-to-date
+
+C:\Users\BCE\CS3398Fall2015-TeamJade>commi

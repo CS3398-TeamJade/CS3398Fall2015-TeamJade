@@ -1,0 +1,10 @@
+For sprint1 (Labeled Sprint 2) I watched many Django Videos to try and understand the process
+I watched the entire 42 videos in the series which starts at URL:
+
+https://www.youtube.com/watch?v=KsLHt3D_jsE&list=PLEsfXFp6DpzRcd-q4vR5qAgOZUuz8041S
+
+I had to watch many of them again because it was confusing to me. (This took ten hours or more)
+
+Attempted to create a prototype for the team. (I spent about 2 hours on this)
+
+This led into Sprint 2 where we decided what to push towards next.
