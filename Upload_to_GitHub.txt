@@ -23,20 +23,24 @@ Fast-forward
  create mode 100644 Taylor Hodges Sprint 1 Artifact.txt
  create mode 100644 Taylor Hodges Sprint 2 Artifact.txt
 
+C:\Users\BCE\CS3398Fall2015-TeamJade>git add .
 
-
-
-
-
-
-C:\Users\BCE\CS3398Fall2015-TeamJade>git push
-Username for 'https://github.com': brett.estep@txstate.edu
-Password for 'https://brett.estep@txstate.edu@github.com':
-Everything up-to-date
+C:\Users\BCE\CS3398Fall2015-TeamJade>git commit -m "Brett Commit"
+[master 0751b8b] Brett Commit
+ 319 files changed, 66 insertions(+), 6 deletions(-)
+ create mode 100644 Brett_Estep_Sprint1_Artifacts.txt
+ create mode 100644 Brett_Estep_Sprint2_Artifacts.txt
+ create mode 100644 Upload_to_GitHub.txt
 
 C:\Users\BCE\CS3398Fall2015-TeamJade>git push
 Username for 'https://github.com': brett.estep@txstate.edu
 Password for 'https://brett.estep@txstate.edu@github.com':
-Everything up-to-date
+Counting objects: 375, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (375/375), done.
+Writing objects: 100% (375/375), 196.79 KiB | 0 bytes/s, done.
+Total 375 (delta 315), reused 0 (delta 0)
+To https://github.com/CS3398-TeamJade/CS3398Fall2015-TeamJade.git
+   9300385..0751b8b  master -> master
 
-C:\Users\BCE\CS3398Fall2015-TeamJade>commi
+C:\Users\BCE\CS3398Fall2015-TeamJade>
