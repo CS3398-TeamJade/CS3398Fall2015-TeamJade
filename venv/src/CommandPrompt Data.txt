@@ -1,0 +1,974 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Windows\System32>cd ..
+
+C:\Windows>cd ..
+
+C:\>cd ..
+
+C:\>cd Users\BCE\Desktop
+
+C:\Users\BCE\Desktop>cd venv
+
+C:\Users\BCE\Desktop\venv>.\Scripts\activate
+(venv) C:\Users\BCE\Desktop\venv>pip freeze
+Django==1.8.6
+wheel==0.24.0
+
+(venv) C:\Users\BCE\Desktop\venv>python .\Scripts\django-admin.py startproject s
+rc
+CommandError: 'C:\Users\BCE\Desktop\venv\src' already exists
+
+(venv) C:\Users\BCE\Desktop\venv>cd src
+
+(venv) C:\Users\BCE\Desktop\venv\src>python manage.py synchdb
+Unknown command: 'synchdb'
+Type 'manage.py help' for usage.
+
+(venv) C:\Users\BCE\Desktop\venv\src>python manage.py syncdb
+C:\Users\BCE\Desktop\venv\lib\site-packages\django\core\management\commands\sync
+db.py:24: RemovedInDjango19Warning: The syncdb command will be removed in Django
+ 1.9
+  warnings.warn("The syncdb command will be removed in Django 1.9", RemovedInDja
+ngo19Warning)
+
+Operations to perform:
+  Synchronize unmigrated apps: staticfiles, messages
+  Apply all migrations: admin, contenttypes, auth, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+  Installing custom SQL...
+Running migrations:
+  No migrations to apply.
+
+You have installed Django's auth system, and don't have any superusers defined.
+Would you like to create one now? (yes/no): yes
+Username (leave blank to use 'bce'): flash8521
+Email address: brett.estep@txstate.edu
+Password:
+Password (again):
+Superuser created successfully.
+
+(venv) C:\Users\BCE\Desktop\venv\src>python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 17, 2015 - 19:30:19
+Django version 1.8.6, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[17/Nov/2015 19:31:00] "GET / HTTP/1.1" 200 1767
+[17/Nov/2015 19:31:05] "GET / HTTP/1.1" 200 1767
+[17/Nov/2015 19:33:00] "GET / HTTP/1.1" 200 1767
+[17/Nov/2015 19:33:19] "GET /admin HTTP/1.1" 301 0
+[17/Nov/2015 19:33:19] "GET /admin/ HTTP/1.1" 302 0
+[17/Nov/2015 19:33:19] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1925
+[17/Nov/2015 19:33:20] "GET /static/admin/css/login.css HTTP/1.1" 200 940
+[17/Nov/2015 19:33:20] "GET /static/admin/css/base.css HTTP/1.1" 200 14049
+[17/Nov/2015 19:33:20] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 200 265
+[17/Nov/2015 19:33:30] "GET /static/admin/img/nav-bg-reverse.gif HTTP/1.1" 200 1
+78
+[17/Nov/2015 19:33:30] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[17/Nov/2015 19:33:30] "GET /admin/ HTTP/1.1" 200 3034
+[17/Nov/2015 19:33:30] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[17/Nov/2015 19:33:30] "GET /static/admin/img/icon_changelink.gif HTTP/1.1" 200
+119
+[17/Nov/2015 19:33:30] "GET /static/admin/img/default-bg.gif HTTP/1.1" 200 836
+[17/Nov/2015 19:33:30] "GET /static/admin/img/icon_addlink.gif HTTP/1.1" 200 119
+
+[17/Nov/2015 19:33:51] "GET /admin/logout/ HTTP/1.1" 200 1596
+[17/Nov/2015 19:33:53] "GET /admin/ HTTP/1.1" 302 0
+[17/Nov/2015 19:33:53] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1925
+[17/Nov/2015 19:33:59] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1925
+[17/Nov/2015 19:33:59] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[17/Nov/2015 19:33:59] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[17/Nov/2015 19:33:59] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 304 0
+[17/Nov/2015 19:34:02] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[17/Nov/2015 19:34:02] "GET /admin/ HTTP/1.1" 200 3034
+[17/Nov/2015 19:34:04] "GET /admin/logout/ HTTP/1.1" 200 1596
+[17/Nov/2015 19:40:38] "GET / HTTP/1.1" 200 1767
+
+(venv) C:\Users\BCE\Desktop\venv\src>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Windows\System32>cd ..
+
+C:\Windows>cd ..
+
+C:\>cd ..
+
+C:\>cd Users\BCE\Desktop
+
+C:\Users\BCE\Desktop>cd venv
+
+C:\Users\BCE\Desktop\venv>.\Scripts\activate
+(venv) C:\Users\BCE\Desktop\venv>pip freeze
+Django==1.8.6
+wheel==0.24.0
+
+(venv) C:\Users\BCE\Desktop\venv>python .\Scripts\django-admin.py startproject s
+rc
+CommandError: 'C:\Users\BCE\Desktop\venv\src' already exists
+
+(venv) C:\Users\BCE\Desktop\venv>cd src
+
+(venv) C:\Users\BCE\Desktop\venv\src>python manage.py synchdb
+Unknown command: 'synchdb'
+Type 'manage.py help' for usage.
+
+(venv) C:\Users\BCE\Desktop\venv\src>python manage.py syncdb
+C:\Users\BCE\Desktop\venv\lib\site-packages\django\core\management\commands\sync
+db.py:24: RemovedInDjango19Warning: The syncdb command will be removed in Django
+ 1.9
+  warnings.warn("The syncdb command will be removed in Django 1.9", RemovedInDja
+ngo19Warning)
+
+Operations to perform:
+  Synchronize unmigrated apps: staticfiles, messages
+  Apply all migrations: admin, contenttypes, auth, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+  Installing custom SQL...
+Running migrations:
+  No migrations to apply.
+
+You have installed Django's auth system, and don't have any superusers defined.
+Would you like to create one now? (yes/no): yes
+Username (leave blank to use 'bce'): flash8521
+Email address: brett.estep@txstate.edu
+Password:
+Password (again):
+Superuser created successfully.
+
+(venv) C:\Users\BCE\Desktop\venv\src>python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 17, 2015 - 19:30:19
+Django version 1.8.6, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[17/Nov/2015 19:31:00] "GET / HTTP/1.1" 200 1767
+[17/Nov/2015 19:31:05] "GET / HTTP/1.1" 200 1767
+[17/Nov/2015 19:33:00] "GET / HTTP/1.1" 200 1767
+[17/Nov/2015 19:33:19] "GET /admin HTTP/1.1" 301 0
+[17/Nov/2015 19:33:19] "GET /admin/ HTTP/1.1" 302 0
+[17/Nov/2015 19:33:19] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1925
+[17/Nov/2015 19:33:20] "GET /static/admin/css/login.css HTTP/1.1" 200 940
+[17/Nov/2015 19:33:20] "GET /static/admin/css/base.css HTTP/1.1" 200 14049
+[17/Nov/2015 19:33:20] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 200 265
+[17/Nov/2015 19:33:30] "GET /static/admin/img/nav-bg-reverse.gif HTTP/1.1" 200 1
+78
+[17/Nov/2015 19:33:30] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[17/Nov/2015 19:33:30] "GET /admin/ HTTP/1.1" 200 3034
+[17/Nov/2015 19:33:30] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[17/Nov/2015 19:33:30] "GET /static/admin/img/icon_changelink.gif HTTP/1.1" 200
+119
+[17/Nov/2015 19:33:30] "GET /static/admin/img/default-bg.gif HTTP/1.1" 200 836
+[17/Nov/2015 19:33:30] "GET /static/admin/img/icon_addlink.gif HTTP/1.1" 200 119
+
+[17/Nov/2015 19:33:51] "GET /admin/logout/ HTTP/1.1" 200 1596
+[17/Nov/2015 19:33:53] "GET /admin/ HTTP/1.1" 302 0
+[17/Nov/2015 19:33:53] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1925
+[17/Nov/2015 19:33:59] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1925
+[17/Nov/2015 19:33:59] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[17/Nov/2015 19:33:59] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[17/Nov/2015 19:33:59] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 304 0
+[17/Nov/2015 19:34:02] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[17/Nov/2015 19:34:02] "GET /admin/ HTTP/1.1" 200 3034
+[17/Nov/2015 19:34:04] "GET /admin/logout/ HTTP/1.1" 200 1596
+[17/Nov/2015 19:40:38] "GET / HTTP/1.1" 200 1767
+
+(venv) C:\Users\BCE\Desktop\venv\src>cd ..
+
+(venv) C:\Users\BCE\Desktop\venv>cd ..
+
+(venv) C:\Users\BCE\Desktop>cd ..
+
+(venv) C:\Users\BCE>cd CS3398Fall2015-TeamJade
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade>python .\Scripts\django-admin.py sta
+rtproject src
+python: can't open file '.\Scripts\django-admin.py': [Errno 2] No such file or d
+irectory
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade>.\Scripts\activate
+The system cannot find the path specified.
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade>pip freeze
+Django==1.8.6
+wheel==0.24.0
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade>virtualvenv venv
+'virtualvenv' is not recognized as an internal or external command,
+operable program or batch file.
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade>pip install vitrualenv
+Collecting vitrualenv
+  Could not find a version that satisfies the requirement vitrualenv (from versi
+ons: )
+No matching distribution found for vitrualenv
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade>pip install vitualenv
+Collecting vitualenv
+  Could not find a version that satisfies the requirement vitualenv (from versio
+ns: )
+No matching distribution found for vitualenv
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade>pip install virtualenv
+Collecting virtualenv
+  Using cached virtualenv-13.1.2-py2.py3-none-any.whl
+Installing collected packages: virtualenv
+Successfully installed virtualenv-13.1.2
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade>pip freeze
+Django==1.8.6
+virtualenv==13.1.2
+wheel==0.24.0
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade>virtualenv venv
+Using real prefix 'c:\\python27'
+New python executable in venv\Scripts\python.exe
+Installing setuptools, pip, wheel...done.
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\BCE\CS3398Fall2015-TeamJade\venv>.\Scripts\activate
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv>deactivate
+C:\Users\BCE\CS3398Fall2015-TeamJade\venv>echo "" >python_file.py
+
+C:\Users\BCE\CS3398Fall2015-TeamJade\venv>dir
+ Volume in drive C has no label.
+ Volume Serial Number is ACBF-203E
+
+ Directory of C:\Users\BCE\CS3398Fall2015-TeamJade\venv
+
+11/17/2015  08:32 PM    <DIR>          .
+11/17/2015  08:32 PM    <DIR>          ..
+11/17/2015  08:13 PM    <DIR>          CofA
+11/16/2015  10:12 PM    <DIR>          Include
+11/17/2015  07:55 PM    <DIR>          Lib
+11/17/2015  07:57 PM                60 pip-selfcheck.json
+11/17/2015  08:32 PM                 5 python_file.py
+11/17/2015  07:58 PM    <DIR>          Scripts
+               2 File(s)             65 bytes
+               6 Dir(s)  730,437,742,592 bytes free
+
+C:\Users\BCE\CS3398Fall2015-TeamJade\venv>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\BCE\CS3398Fall2015-TeamJade\venv>path
+PATH=C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\HP SimplePass\x64;C
+:\Program Files (x86)\HP SimplePass\;C:\ProgramData\Oracle\Java\javapath;C:\Prog
+ram Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Progra
+m Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common
+ Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\S
+ystem32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\
+Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components
+\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program
+ Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x
+86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel
+\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\P
+rogram Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\C
+ommon Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Sh
+ared\12.0\DLLShared\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone
+\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell
+
+C:\Users\BCE\CS3398Fall2015-TeamJade\venv>.\Scripts\activate
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv>pip freeze
+Django==1.8.6
+wheel==0.24.0
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv>deactivate
+C:\Users\BCE\CS3398Fall2015-TeamJade\venv>cd ..
+
+C:\Users\BCE\CS3398Fall2015-TeamJade>cd venv\src
+
+C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>dir
+ Volume in drive C has no label.
+ Volume Serial Number is ACBF-203E
+
+ Directory of C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src
+
+11/17/2015  08:13 PM    <DIR>          .
+11/17/2015  08:13 PM    <DIR>          ..
+11/17/2015  08:12 PM    <DIR>          CofA
+11/17/2015  08:13 PM            36,864 db.sqlite3
+11/17/2015  08:11 PM               247 manage.py
+               2 File(s)         37,111 bytes
+               3 Dir(s)  730,435,485,696 bytes free
+
+C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>pip freeze
+Django==1.8
+virtualenv==13.1.2
+wheel==0.26.0
+
+C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>.\Scripts\activate
+The system cannot find the path specified.
+
+C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>cd ..
+
+C:\Users\BCE\CS3398Fall2015-TeamJade\venv>.\Scripts\activate
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv>cd src
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>dir
+ Volume in drive C has no label.
+ Volume Serial Number is ACBF-203E
+
+ Directory of C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src
+
+11/17/2015  08:13 PM    <DIR>          .
+11/17/2015  08:13 PM    <DIR>          ..
+11/17/2015  08:12 PM    <DIR>          CofA
+11/17/2015  08:13 PM            36,864 db.sqlite3
+11/17/2015  08:11 PM               247 manage.py
+               2 File(s)         37,111 bytes
+               3 Dir(s)  730,435,485,696 bytes free
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 17, 2015 - 20:48:21
+Django version 1.8.6, using settings 'CofA.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[17/Nov/2015 20:48:29] "GET / HTTP/1.1" 200 1767
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>python manage.py migrate
+Operations to perform:
+  Synchronize unmigrated apps: staticfiles, messages
+  Apply all migrations: admin, contenttypes, auth, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+  Installing custom SQL...
+Running migrations:
+  No migrations to apply.
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>python manage.py migrate
+Operations to perform:
+  Synchronize unmigrated apps: staticfiles, messages
+  Apply all migrations: admin, contenttypes, auth, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+  Installing custom SQL...
+Running migrations:
+  Rendering model states... DONE
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying sessions.0001_initial... OK
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>.\Scripts\activate
+The system cannot find the path specified.
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>cd ..
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv>cd src
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>python manage.py syncdb
+C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\core\manageme
+nt\commands\syncdb.py:24: RemovedInDjango19Warning: The syncdb command will be r
+emoved in Django 1.9
+  warnings.warn("The syncdb command will be removed in Django 1.9", RemovedInDja
+ngo19Warning)
+
+Operations to perform:
+  Synchronize unmigrated apps: staticfiles, messages
+  Apply all migrations: admin, contenttypes, auth, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+  Installing custom SQL...
+Running migrations:
+  No migrations to apply.
+
+You have installed Django's auth system, and don't have any superusers defined.
+Would you like to create one now? (yes/no): yes
+Username (leave blank to use 'bce'): flash8521
+Email address: brett.estep@txstate.edu
+Password:
+Password (again):
+Superuser created successfully.
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>createsuperuser
+'createsuperuser' is not recognized as an internal or external command,
+operable program or batch file.
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 17, 2015 - 20:59:09
+Django version 1.8.6, using settings 'CofA.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[17/Nov/2015 20:59:35] "GET / HTTP/1.1" 200 1767
+[17/Nov/2015 21:00:11] "GET /admin/ HTTP/1.1" 302 0
+[17/Nov/2015 21:00:11] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1925
+[17/Nov/2015 21:00:13] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[17/Nov/2015 21:00:13] "GET /admin/ HTTP/1.1" 200 3034
+[17/Nov/2015 21:01:06] "GET / HTTP/1.1" 200 1767
+[17/Nov/2015 21:01:07] "GET /admin/ HTTP/1.1" 200 3034
+[17/Nov/2015 21:01:28] "GET /admin/auth/user/ HTTP/1.1" 200 6630
+[17/Nov/2015 21:01:28] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[17/Nov/2015 21:01:28] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[17/Nov/2015 21:01:28] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/
+1.1" 304 0
+[17/Nov/2015 21:01:28] "GET /static/admin/js/jquery.js HTTP/1.1" 304 0
+[17/Nov/2015 21:01:28] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[17/Nov/2015 21:01:28] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[17/Nov/2015 21:01:28] "GET /static/admin/img/icon_searchbox.png HTTP/1.1" 304 0
+
+[17/Nov/2015 21:01:28] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[17/Nov/2015 21:01:28] "GET /static/admin/img/tooltag-add.png HTTP/1.1" 304 0
+[17/Nov/2015 21:01:29] "GET /static/admin/img/icon-yes.gif HTTP/1.1" 200 299
+[17/Nov/2015 21:01:29] "GET /static/admin/img/changelist-bg.gif HTTP/1.1" 200 50
+
+[17/Nov/2015 21:01:29] "GET /static/admin/img/sorting-icons.gif HTTP/1.1" 200 36
+9
+[17/Nov/2015 21:01:29] "GET /static/admin/img/nav-bg-selected.gif HTTP/1.1" 200
+265
+[17/Nov/2015 21:01:45] "GET /admin/auth/user/1/ HTTP/1.1" 200 13961
+[17/Nov/2015 21:01:45] "GET /static/admin/css/forms.css HTTP/1.1" 200 6283
+[17/Nov/2015 21:01:45] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[17/Nov/2015 21:01:45] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4222
+[17/Nov/2015 21:01:45] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 1012
+7
+[17/Nov/2015 21:01:45] "GET /static/admin/js/related-widget-wrapper.js HTTP/1.1"
+ 200 857
+[17/Nov/2015 21:01:45] "GET /static/admin/js/calendar.js HTTP/1.1" 200 5969
+[17/Nov/2015 21:01:45] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1
+" 200 17161
+[17/Nov/2015 21:01:45] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10590
+[17/Nov/2015 21:01:45] "GET /static/admin/img/icon_deletelink.gif HTTP/1.1" 200
+181
+[17/Nov/2015 21:01:45] "GET /static/admin/img/icon_calendar.gif HTTP/1.1" 200 19
+2
+[17/Nov/2015 21:01:45] "GET /static/admin/img/icon_clock.gif HTTP/1.1" 200 390
+[17/Nov/2015 21:01:45] "GET /static/admin/img/icon-unknown.gif HTTP/1.1" 200 130
+
+[17/Nov/2015 21:01:45] "GET /static/admin/img/selector-search.gif HTTP/1.1" 200
+552
+[17/Nov/2015 21:01:45] "GET /static/admin/img/selector-icons.gif HTTP/1.1" 200 2
+771
+[17/Nov/2015 21:02:23] "GET / HTTP/1.1" 200 1767
+[17/Nov/2015 21:02:25] "GET /admin/auth/user/1/ HTTP/1.1" 200 13961
+[17/Nov/2015 21:02:25] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[17/Nov/2015 21:02:26] "GET /admin/auth/user/ HTTP/1.1" 200 6630
+[17/Nov/2015 21:02:26] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[17/Nov/2015 21:02:28] "GET /admin/ HTTP/1.1" 200 3034
+[17/Nov/2015 21:05:31] "GET /admin/auth/user/ HTTP/1.1" 200 6630
+[17/Nov/2015 21:05:31] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[17/Nov/2015 21:17:39] "GET / HTTP/1.1" 200 1767
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>python manage.py startapp C
+ofA
+CommandError: 'CofA' conflicts with the name of an existing Python module and ca
+nnot be used as an app name. Please try another name.
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>python manage.py startapp n
+ewsletter
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>cd ..
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv>python manage.py startapp newsl
+etter
+python: can't open file 'manage.py': [Errno 2] No such file or directory
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv>pip freeze
+Django==1.8.6
+wheel==0.24.0
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv>python manage.py startapp newsl
+etter
+python: can't open file 'manage.py': [Errno 2] No such file or directory
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv>pip freeze
+Django==1.8.6
+wheel==0.24.0
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv>python manage.py startapp news
+python: can't open file 'manage.py': [Errno 2] No such file or directory
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv>cd src
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>python manage.py startapp n
+ews
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>cd ..
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv>python manage.py startapp news
+Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\core\
+management\__init__.py", line 354, in execute_from_command_line
+    utility.execute()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\core\
+management\__init__.py", line 303, in execute
+    settings.INSTALLED_APPS
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\conf\
+__init__.py", line 48, in __getattr__
+    self._setup(name)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\conf\
+__init__.py", line 44, in _setup
+    self._wrapped = Settings(settings_module)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\conf\
+__init__.py", line 92, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "c:\python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named CofA.settings
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv>cd src
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>python manage.py runserver
+Unhandled exception in thread started by <function wrapper at 0x03462D30>
+Traceback (most recent call last):
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils\autoreload.py", line 229, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\core\management\commands\runserver.py", line 107, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils\autoreload.py", line 252, in raise_last_exception
+    six.reraise(*_exception)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils\autoreload.py", line 229, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\apps\registry.py", line 115, in populate
+    app_config.ready()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\contrib\admin\apps.py", line 22, in ready
+    self.module.autodiscover()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\contrib\admin\__init__.py", line 24, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils\module_loading.py", line 74, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "c:\python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src\newsletter\admin.py", line 4, in <module>
+    from .forms import SignUpForm
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src\newsletter\forms.py", line 3, in <module>
+    from .forms import SignUpForm
+ImportError: cannot import name SignUpForm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\In
+tel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Ma
+nagement Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management
+Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Pro
+gram Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Common File
+s\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLSh
+ared\;C:\Program Files (x86)\Common Files\Roxio Shared\12.0\DLLShared\;C:\Progra
+m Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\SSH C
+ommunications Security\SSH Secure Shell
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>python manage.py runserver
+Unhandled exception in thread started by <function wrapper at 0x03283CF0>
+Traceback (most recent call last):
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\autoreload.py", line 229, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\core\
+management\commands\runserver.py", line 107, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\autoreload.py", line 252, in raise_last_exception
+    six.reraise(*_exception)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\autoreload.py", line 229, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\__ini
+t__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\apps\
+registry.py", line 115, in populate
+    app_config.ready()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\contr
+ib\admin\apps.py", line 22, in ready
+    self.module.autodiscover()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\contr
+ib\admin\__init__.py", line 24, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\module_loading.py", line 74, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "c:\python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src\newsletter\admin.py", line
+ 4, in <module>
+    from .forms import SignUpForm
+ImportError: cannot import name SignUpForm
+Unhandled exception in thread started by <function wrapper at 0x03373CF0>
+Traceback (most recent call last):
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\autoreload.py", line 229, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\core\
+management\commands\runserver.py", line 107, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\autoreload.py", line 252, in raise_last_exception
+    six.reraise(*_exception)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\autoreload.py", line 229, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\__ini
+t__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\apps\
+registry.py", line 115, in populate
+    app_config.ready()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\contr
+ib\admin\apps.py", line 22, in ready
+    self.module.autodiscover()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\contr
+ib\admin\__init__.py", line 24, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\module_loading.py", line 74, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "c:\python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src\newsletter\admin.py", line
+ 4, in <module>
+    from .forms import SignUpForm
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src\newsletter\forms.py", line
+ 3, in <module>
+    from .forms import SignUpForm
+ImportError: cannot import name SignUpForm
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>python manage.py runserver
+Unhandled exception in thread started by <function wrapper at 0x03393CF0>
+Traceback (most recent call last):
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\autoreload.py", line 229, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\core\
+management\commands\runserver.py", line 107, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\autoreload.py", line 252, in raise_last_exception
+    six.reraise(*_exception)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\autoreload.py", line 229, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\__ini
+t__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\apps\
+registry.py", line 115, in populate
+    app_config.ready()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\contr
+ib\admin\apps.py", line 22, in ready
+    self.module.autodiscover()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\contr
+ib\admin\__init__.py", line 24, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\module_loading.py", line 74, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "c:\python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src\newsletter\admin.py", line
+ 4, in <module>
+    from .forms import SignUpForm
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src\newsletter\forms.py", line
+ 3, in <module>
+    from .forms import SignUpForm
+ImportError: cannot import name SignUpForm
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>python manage.py runserver
+Unhandled exception in thread started by <function wrapper at 0x03462D30>
+Traceback (most recent call last):
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\autoreload.py", line 229, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\core\
+management\commands\runserver.py", line 107, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\autoreload.py", line 252, in raise_last_exception
+    six.reraise(*_exception)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\autoreload.py", line 229, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\__ini
+t__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\apps\
+registry.py", line 115, in populate
+    app_config.ready()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\contr
+ib\admin\apps.py", line 22, in ready
+    self.module.autodiscover()
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\contr
+ib\admin\__init__.py", line 24, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\lib\site-packages\django\utils
+\module_loading.py", line 74, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "c:\python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src\newsletter\admin.py", line
+ 4, in <module>
+    from .forms import SignUpForm
+  File "C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src\newsletter\forms.py", line
+ 3, in <module>
+    from .forms import SignUpForm
+ImportError: cannot import name SignUpForm
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 18, 2015 - 00:17:35
+Django version 1.8.6, using settings 'CofA.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+(venv) C:\Users\BCE\CS3398Fall2015-TeamJade\venv\src>python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 18, 2015 - 00:17:43
+Django version 1.8.6, using settings 'CofA.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[18/Nov/2015 00:17:52] "GET / HTTP/1.1" 200 63
+[18/Nov/2015 00:17:53] "GET /admin/newsletter/signup/?o=-2 HTTP/1.1" 200 5494
+[18/Nov/2015 00:17:53] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[18/Nov/2015 00:17:53] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[18/Nov/2015 00:17:53] "GET /static/admin/js/jquery.js HTTP/1.1" 304 0
+[18/Nov/2015 00:17:53] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[18/Nov/2015 00:17:53] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/
+1.1" 304 0
+[18/Nov/2015 00:17:53] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[18/Nov/2015 00:17:53] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[18/Nov/2015 00:17:53] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[18/Nov/2015 00:17:53] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 304 0
+[18/Nov/2015 00:17:53] "GET /static/admin/img/nav-bg-reverse.gif HTTP/1.1" 304 0
+
+[18/Nov/2015 00:17:53] "GET /static/admin/img/sorting-icons.gif HTTP/1.1" 304 0
+[18/Nov/2015 00:17:53] "GET /static/admin/img/nav-bg-selected.gif HTTP/1.1" 304
+0
+[18/Nov/2015 00:17:53] "GET /static/admin/img/tooltag-add.png HTTP/1.1" 304 0
+[18/Nov/2015 00:17:54] "GET /admin/newsletter/signup/?o=-2 HTTP/1.1" 200 5494
+[18/Nov/2015 00:17:54] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[18/Nov/2015 00:17:54] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[18/Nov/2015 00:17:54] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[18/Nov/2015 00:17:54] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/
+1.1" 304 0
+[18/Nov/2015 00:17:54] "GET /static/admin/js/jquery.js HTTP/1.1" 304 0
+[18/Nov/2015 00:17:54] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[18/Nov/2015 00:17:54] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[18/Nov/2015 00:17:54] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[18/Nov/2015 00:17:55] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 304 0
+[18/Nov/2015 00:17:55] "GET /static/admin/img/nav-bg-reverse.gif HTTP/1.1" 304 0
+
+[18/Nov/2015 00:17:55] "GET /static/admin/img/tooltag-add.png HTTP/1.1" 304 0
+[18/Nov/2015 00:17:55] "GET /static/admin/img/nav-bg-selected.gif HTTP/1.1" 304
+0
+[18/Nov/2015 00:17:55] "GET /static/admin/img/sorting-icons.gif HTTP/1.1" 304 0
+[18/Nov/2015 00:18:04] "GET /admin/newsletter/signup/add/?_changelist_filters=o%
+3D-2 HTTP/1.1" 200 4599
+[18/Nov/2015 00:18:04] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[18/Nov/2015 00:18:04] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[18/Nov/2015 00:18:04] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[18/Nov/2015 00:18:04] "GET /static/admin/img/default-bg.gif HTTP/1.1" 304 0
+[18/Nov/2015 00:18:11] "GET /admin/newsletter/signup/ HTTP/1.1" 200 5176
+[18/Nov/2015 00:18:11] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 18, 2015 - 00:18:41
+Django version 1.8.6, using settings 'CofA.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[18/Nov/2015 00:18:43] "GET /admin/newsletter/signup/ HTTP/1.1" 200 5176
+[18/Nov/2015 00:18:43] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[18/Nov/2015 00:18:43] "GET /static/admin/js/jquery.js HTTP/1.1" 304 0
+[18/Nov/2015 00:18:43] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[18/Nov/2015 00:18:43] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[18/Nov/2015 00:18:43] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/
+1.1" 304 0
+[18/Nov/2015 00:18:43] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[18/Nov/2015 00:18:43] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[18/Nov/2015 00:18:43] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[18/Nov/2015 00:18:43] "GET /static/admin/img/nav-bg-reverse.gif HTTP/1.1" 304 0
+
+[18/Nov/2015 00:18:43] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 304 0
+[18/Nov/2015 00:18:43] "GET /static/admin/img/tooltag-add.png HTTP/1.1" 304 0
+[18/Nov/2015 00:18:46] "GET /admin/newsletter/signup/ HTTP/1.1" 200 5176
+[18/Nov/2015 00:18:46] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[18/Nov/2015 00:18:46] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[18/Nov/2015 00:18:46] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[18/Nov/2015 00:18:46] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/
+1.1" 304 0
+[18/Nov/2015 00:18:46] "GET /static/admin/js/jquery.js HTTP/1.1" 304 0
+[18/Nov/2015 00:18:46] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[18/Nov/2015 00:18:46] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[18/Nov/2015 00:18:46] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[18/Nov/2015 00:18:46] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 304 0
+[18/Nov/2015 00:18:46] "GET /static/admin/img/nav-bg-reverse.gif HTTP/1.1" 304 0
+
+[18/Nov/2015 00:18:46] "GET /static/admin/img/tooltag-add.png HTTP/1.1" 304 0
+[18/Nov/2015 00:19:05] "GET /admin/newsletter/signup/2/ HTTP/1.1" 200 4300
+[18/Nov/2015 00:19:05] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[18/Nov/2015 00:19:05] "GET /static/admin/img/icon_deletelink.gif HTTP/1.1" 304
+0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 18, 2015 - 00:19:57
+Django version 1.8.6, using settings 'CofA.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[18/Nov/2015 00:20:03] "GET /admin/newsletter/signup/2/ HTTP/1.1" 200 4803
+[18/Nov/2015 00:20:03] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[18/Nov/2015 00:20:03] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[18/Nov/2015 00:20:03] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[18/Nov/2015 00:20:03] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/
+1.1" 304 0
+[18/Nov/2015 00:20:03] "GET /static/admin/js/jquery.js HTTP/1.1" 304 0
+[18/Nov/2015 00:20:03] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[18/Nov/2015 00:20:03] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[18/Nov/2015 00:20:03] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[18/Nov/2015 00:20:03] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[18/Nov/2015 00:20:03] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 304 0
+[18/Nov/2015 00:20:03] "GET /static/admin/img/default-bg.gif HTTP/1.1" 304 0
+[18/Nov/2015 00:20:03] "GET /static/admin/img/icon_deletelink.gif HTTP/1.1" 304
+0
+[18/Nov/2015 00:20:03] "GET /static/admin/img/nav-bg-reverse.gif HTTP/1.1" 304 0
+
+[18/Nov/2015 00:21:44] "GET /admin/newsletter/signup/ HTTP/1.1" 200 5176
+[18/Nov/2015 00:21:44] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[18/Nov/2015 00:21:45] "GET /admin/newsletter/signup/add/ HTTP/1.1" 200 4572
+[18/Nov/2015 00:21:45] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[18/Nov/2015 00:21:55] "GET /static/admin/img/default-bg-reverse.gif HTTP/1.1" 3
+04 0
+[18/Nov/2015 00:21:55] "POST /admin/newsletter/signup/add/ HTTP/1.1" 302 0
+[18/Nov/2015 00:21:55] "GET /admin/newsletter/signup/ HTTP/1.1" 200 5678
+[18/Nov/2015 00:21:55] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[18/Nov/2015 00:21:55] "GET /static/admin/img/icon_success.gif HTTP/1.1" 304 0

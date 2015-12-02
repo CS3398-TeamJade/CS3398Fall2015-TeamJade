@@ -1,0 +1,10 @@
+For sprint2 (Labeled Sprint 3) I watched many Django videos to setup the system on a windows based computer.
+I watched the entire 7 videos in the series which starts at URL:
+
+https://www.youtube.com/watch?v=QhevHKBy7Hc&list=PLEsfXFp6DpzSH9ylikCRyki_Bi6avmltQ&index=1
+
+This took over 6 hours to complete.  More than I allotted.
+
+Created a web site for team sentiment analysis data with links to various social media sites and City of Austin page. (This took about 6 hours to setup completely)
+
+I had to perform the Code Academy HTML & CSS Course to complete the task and probably need to go through the Django videos another time as well to establish a better understanding of the process.
